@@ -1,0 +1,77 @@
+.container-native {
+    width: 100%;
+    height: 100vh;
+    background: rgb(8, 90, 212);
+    /*background: rgb(30,19,95);*/
+    background: linear-gradient(34deg, rgb(2, 65, 201) 15%, rgb(30, 108, 224) 72%);
+    /* background: linear-gradient(34deg, rgb(30, 19, 95) 15%, rgba(86,32,199,1) 72%); */
+}
+.content {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../assets//bg.png');
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    color: var(--main-color);
+}
+.area-inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    flex-direction: column;
+    z-index: 800;
+}
+.area-inputs h1{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.area-inputs input {
+    width: 95%;
+    height: 50px;
+    border-radius: 4px;
+    border: none;
+    padding: 0 5px;
+    margin: 10px 0; 
+}
+.area-inputs button {
+    width: 95%;
+    height: 50px;
+    border-radius: 4px;
+    background-color: var(--main-color-button);
+    border: none;
+    color: var(--main-color);
+    transition: 0.4s;
+    font-weight: bold;
+}
+
+.area-inputs button:hover{
+    width: 95%;
+    height: 50px;
+    border-radius: 4px;
+    background-color: var(--main-color-button-hover);
+    border: none;
+    color: var(--main-color);
+    transition: 0.4s;
+    font-weight: bold;
+}
+.container-native .img {
+    display: flex;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    opacity: 20%;
+    z-index: 1;
+    overflow: hidden;
+}
+.container-native img{
+    width: 96%;
+}
+input:focus {
+ outline: 0;
+ border: 1px solid var(--main-color-button-hover);
+}
+@media only screen and (max-width: 600px) {
+   
+  }

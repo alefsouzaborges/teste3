@@ -1,0 +1,116 @@
+.sidebar-content {
+    width: 250px;
+    height: 100vh;
+    background-color: var(--main-color);
+    display: flex;
+    box-shadow: 2px 5px 4px var(--main-color-sidebar-shadown)
+}
+.sidebar-box-login {
+    width: 100%;
+    height: 250px;
+    border-bottom: 1px solid var(--main-color-sidebar-border-bottom);
+}
+.sidebar-content-img {
+    display: flex;
+    width: 100%;
+    height: 130px;
+}
+.sidebar-box-login img {
+    width: 100%;
+    padding: 20px;
+}
+.sidebar-infor-login {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 17px;
+    font-size: 12px;
+}
+.sidebar-infor-login span{
+    color: var(--main-color-text-secundary);
+    font-weight: 400;
+}
+.sidebar-infor-login h3{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    color: var(--main-color-text-secundary);
+    font-weight: 400;
+}
+.sidebar-infor-login .icon{
+    position: relative;
+    left: 0%;
+    justify-self: center;
+    margin-top: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.4s;
+}  
+.sidebar-infor-login .icon:hover{
+    position: relative;
+    left: 0%;
+    justify-self: center;
+    margin-top: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    color: var(--main-color-button-hover);
+    transition: 0.4s;
+}   
+.sidebar-menu {
+    clear: both;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.sidebar-acordion {
+    padding: 0;
+    margin: 2px !important;
+    list-style: none;
+    cursor: pointer;
+}
+.sidebar-acordion ul {
+    padding: 0;
+    margin: 0 !important;
+    list-style: none;
+    cursor: pointer;
+}
+.sidebar-menu ul li {
+    padding: 10px;
+    font-size: 12px;
+    color: var(--main-color-navbar-primary);
+    font-weight: 400;
+    transition: 0.4s;
+}
+.sidebar-menu ul :hover {
+    background-color: var(--main-color-navbar-primary);
+    color: var(--main-color-text-primary) !important;
+    font-weight: 400;;
+    transition: 0.4s;
+}
+.sidebar-menu .icon {
+    font-size: 24px;
+    padding: 2px;
+}
+/* ESSA CLASSE SERA ADICIONADA QUANDO UMA PAGINA ESTIVER ATIVA */
+.active {
+    padding: 10px;
+    font-size: 12px;
+    color: '#FFF' !important;
+    background-color: var(--main-color-navbar-primary);
+    font-weight: 400;
+    transition: 0.4s;
+}
+.sidebar-menu-selected {
+    padding: 10px;
+    font-size: 12px;
+    color: var(--main-color-text-primary) !important;
+    font-weight: 400;
+    transition: 0.4s;
+}
+.sidebar-menu-selected .icon {
+    font-size: 24px;
+    padding: 2px;
+}
+.teste li {
+    color: red;
+}

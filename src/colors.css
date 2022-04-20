@@ -1,0 +1,13 @@
+:root {
+    --main-color: #FFF;
+    --main-color-text-primary: #FFF;
+    --main-color-text-secundary: rgb(189, 189, 189);
+    --main-color-button: #0472c7;
+    --main-color-button-hover: #0e5e9b;
+    --main-color-bg-principal: #f3f0f8;
+    --main-color-sidebar-shadown: #C1C1C1;
+    --main-color-sidebar-border-bottom: #e2e2e2;
+    --main-color-sidebar-text: #666666;
+    --main-color-navbar-primary: #0472c7;
+    --main-color-navbar-secundary: #210D4B
+}

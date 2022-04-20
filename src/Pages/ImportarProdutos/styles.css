@@ -1,0 +1,76 @@
+.content-full {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    justify-content: center;
+    justify-items: center;
+}
+.content-card {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 430px;
+    margin: 20px;
+}
+.content_input {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+input[type='file']{
+    display: none;
+}
+.container-input {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+.container-input  label{
+    width: 100%;
+    background-color: var(--main-color-button);
+    padding: 10;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    color: #FFF;
+    font-weight: 600;
+    border-radius: 4px;
+    transition: 0.4s;
+}
+.container-button {
+    width: 100%;
+    display: flex;
+}
+.icon { 
+    font-size: 22px;
+    margin-right: 10px;
+}
+.container-input  label:hover {
+    cursor: pointer;
+    transform: scale(1.14,1.14);
+    transition: 0.4s;
+    background-color: var(--main-color-button-hover);
+}
+.container-input h1 {
+    font-size: 14px;
+}
+.carregando {
+    margin-top: 10px;
+    animation-name: anim;
+    animation-iteration-count: infinite;
+    padding: 10px;
+    animation-duration: 1s;
+    animation-direction: alternate-reverse;
+}
+@keyframes anim {
+    from {font-size: 12px;}
+    to {font-size: 14px;}
+}
